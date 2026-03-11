@@ -1,0 +1,35 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SortingVisualizer</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SortingVisualizer</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SortingVisualizer.vcxproj" File="SortingVisualizer.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SortingVisualizer.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="glad.c">glad.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="randomizer_worker.cpp">randomizer_worker.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sort_worker.cpp">sort_worker.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="randomizer_worker.hpp">randomizer_worker.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="arena.hpp">arena.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="bubble_sort_worker.hpp">bubble_sort_worker.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="glad.h">GLAD\glad.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="qsort_worker.hpp">qsort_worker.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sort_worker.hpp">sort_worker.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="util.hpp">util.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vec.hpp">vec.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="khrplatform.h">KHR\khrplatform.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="worker.hpp">worker.hpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
